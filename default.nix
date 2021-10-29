@@ -6,4 +6,5 @@ let pkgs = import ./pkgs.nix {
 in with pkgs; [
     eclair 
     eclair-alarmbot
+    plugin-hosted-channels
 ]
