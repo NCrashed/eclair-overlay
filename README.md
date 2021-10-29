@@ -1,6 +1,4 @@
-# Alarmbot
+# Hashes 
 
-Generation of `project-info.json` is done by commenting `fr.acinq.eclair` deps in `pom.xml` and running the command inside the alarmbot repo:
-```
-nix-shell -p maven --run "mvn  -Dmaven.repo.local=$(mktemp -d -t maven)  org.nixos.mvn2nix:mvn2nix-maven-plugin:mvn2nix"
-```
+The deterministic build pins hashes of dependencies in `alarmbot/repository.nix` and `eclair/repository.nix` files. 
+If you get hash mismatch errors due updated set of dependencies, simply update `outputHash` in these files.
