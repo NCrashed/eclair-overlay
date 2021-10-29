@@ -1,7 +1,7 @@
 The repo provides [nix](nixos.org) scripts for deterministic builds for [Eclair](https://github.com/ACINQ/eclair) and the following plugins:
 
 - [alarmbot](https://github.com/engenegr/eclair-alarmbot-plugin)
-- [plugin-hosted-channels][https://github.com/btcontract/plugin-hosted-channels]
+- [plugin-hosted-channels](https://github.com/btcontract/plugin-hosted-channels)
 
 # Build 
 
